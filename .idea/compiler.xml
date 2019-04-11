@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distributed-transaction" />
+        <module name="DistributedTransaction" />
+        <module name="java-basis" />
+        <module name="java8sharing" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="distributed-transaction" target="1.8" />
+      <module name="java-basis" target="1.8" />
+      <module name="java8sharing" target="1.8" />
+      <module name="learn" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
