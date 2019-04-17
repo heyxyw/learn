@@ -22,6 +22,9 @@ public class ReferenceCountingGC {
         //假设在这里发生GC ,objA 和 objB  是否会被回收
         System.gc();
     }
+
+
+
 }
 
 

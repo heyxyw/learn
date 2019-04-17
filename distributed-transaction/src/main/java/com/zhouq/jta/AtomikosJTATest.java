@@ -46,7 +46,6 @@ public class AtomikosJTATest {
         try {
             //开启事物
             userTransaction.begin();
-
             // 执行db1 上面的 sql
             connection1 = ds1.getConnection();
             ps1 = connection1.prepareStatement("INSERT INTO USER(name) VALUE (?)", Statement.RETURN_GENERATED_KEYS);
@@ -81,4 +80,8 @@ public class AtomikosJTATest {
         }
 
     }
+
+    
+
+
 }
